@@ -28,6 +28,10 @@ td {
     width: 15vw;
     border-radius: 15px;
     background-color: rgb(50, 50, 50);
+
+    &:hover{
+        cursor: pointer;
+    }
 }
 
 table {
@@ -37,10 +41,6 @@ table {
 
 article {
     height: fit-content;
-
-    &:hover {
-        cursor: pointer;
-    }
 
     img {
         width: 100%;
