@@ -37,6 +37,18 @@ table {
     & article {
         height: fit-content;
 
+        &:hover {
+            cursor: pointer;
+        }
+
+        & .imdb {
+            display: none;
+        }
+
+        & .sb {
+            z-index: 20;
+        }
+
         & img {
             width: 100%;
             aspect-ratio: 1/1.38;
