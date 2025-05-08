@@ -33,36 +33,29 @@ td {
 table {
     border-collapse: separate;
     border-spacing: 12px;
+}
 
-    & article {
-        height: fit-content;
+article {
+    height: fit-content;
 
-        &:hover {
-            cursor: pointer;
-        }
+    &:hover {
+        cursor: pointer;
+    }
 
-        & .imdb {
-            display: none;
-        }
+    img {
+        width: 100%;
+        aspect-ratio: 1/1.38;
+        object-fit: cover;
+        border-radius: 9px;
+        margin-bottom: 6px;
+    }
 
-        & .sb {
-            z-index: 20;
-        }
-
-        & img {
-            width: 100%;
-            aspect-ratio: 1/1.38;
-            object-fit: cover;
-            border-radius: 9px;
-            margin-bottom: 6px;
-        }
-
-        &>main {
-            display: flex;
-            flex-direction: column;
-        }
+    &>main {
+        display: flex;
+        flex-direction: column;
     }
 }
+
 
 a {
     z-index: 10;

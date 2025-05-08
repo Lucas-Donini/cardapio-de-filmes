@@ -182,16 +182,17 @@
     </div>
 
     <script>
+        $('a.imdb').css('display', 'none');
         $('article').click(function (event) {
             if ($(event.target).is('a.sm')) {
-                return
+                return;
             }
 
             const imdb = window.open($(this).find('a.imdb').prop('href'), "_blank");
             if (imdb) {
                 imdb.focus();
             } else {
-                alert('A Página foi Bloqueada pelo Navegador')
+                alert('A Página foi Bloqueada pelo Navegador');
             }
         });
     </script>
