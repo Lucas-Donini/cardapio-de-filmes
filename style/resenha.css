@@ -1,4 +1,7 @@
 body {
+    min-width: 1000px;
+    min-height: 480px;
+    overflow-x: auto;
     margin: 0;
     padding: 0;
     background-color: rgb(30, 30, 30);
@@ -6,7 +9,7 @@ body {
 }
 
 #logo {
-    position: fixed;
+    position: absolute;
     top: 20px;
     left: 20px;
     width: 95px;
@@ -20,7 +23,7 @@ body {
 }
 
 #corpo {
-    width: 55vw;
+    width: 70%;
     background-color: rgb(50, 50, 50);
     padding: 24px 48px;
     margin: 24px auto;
