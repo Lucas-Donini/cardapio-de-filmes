@@ -45,6 +45,7 @@ td {
     width: 15%;
     border-radius: 15px;
     background-color: rgb(50, 50, 50);
+    box-shadow: 3px 4px 3px rgb(22, 22, 22);
 
     &:hover{
         cursor: pointer;
