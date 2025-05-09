@@ -20,6 +20,10 @@ body {
     height: auto;
     z-index: 1000;
     overflow: visible;
+
+    &:hover {
+        cursor: pointer;
+    }
 }
 
 td {
@@ -37,6 +41,7 @@ td {
 table {
     border-collapse: separate;
     border-spacing: 12px;
+    margin: 0px 115px
 }
 
 article {
@@ -59,4 +64,8 @@ article {
 
 a {
     z-index: 10;
+}
+
+h2 {
+    word-break: break-all;
 }
