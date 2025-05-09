@@ -13,17 +13,19 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 48px;
+}
+
+.container-fluid>header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 24px;
 }
 
 #logo {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    width: 95px;
-    height: auto;
-    z-index: 1000;
-    overflow: visible;
-
+    width: 20%;
+    
     &:hover {
         cursor: pointer;
     }
