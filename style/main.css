@@ -6,6 +6,7 @@ body {
     padding: 0;
     background-color: rgb(30, 30, 30);
     color: rgb(245, 245, 245);
+    font-size: 1.3em;
 }
 
 .container-fluid>main {
@@ -58,7 +59,7 @@ article {
         aspect-ratio: 1/1.38;
         object-fit: cover;
         border-radius: 9px;
-        margin-bottom: 6px;
+        margin-bottom: 9px;
     }
 
     &>main {
@@ -67,6 +68,9 @@ article {
     }
 }
 
+h2 {
+    font-size: 2.3rem;
+}
 
 a {
     z-index: 10;
