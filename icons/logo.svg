@@ -3,6 +3,6 @@
   <rect x="10" y="10" width="40" height="40" rx="5" stroke="#F5F5F5" stroke-width="2" fill="none"/>
   <path d="M25 20V40L40 30L25 20Z" fill="#2EE8D6"/>
   
-  <!-- Texto "GerminaFlix" -->
-  <text x="70" y="40" font-family="Arial, sans-serif" font-size="24" fill="#F5F5F5" font-weight="bold">GerminaFlix</text>
+  <!-- Texto "TechFlix" -->
+  <text x="70" y="40" font-family="Arial, sans-serif" font-size="24" fill="#F5F5F5" font-weight="bold">TechFlix</text>
 </svg>
